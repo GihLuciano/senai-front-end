@@ -10,7 +10,7 @@ from models import User
 
 bp = Blueprint(__name__, "HomeController")
 
-@bp.route("/") # cria uma rota
+@bp.route("/") # cria uma rota teste
 def index(): # função que gerencia rota
     """ Página inicial"""
     if '_user_id' not in session:
